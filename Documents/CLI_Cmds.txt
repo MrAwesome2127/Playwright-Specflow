@@ -1,0 +1,18 @@
+﻿CLI commands:
+
+# Playwright Record:
+	This feature is similar to Selenium IDE. It locates elements by ARIA (Accessible Rich Internet Applications).
+	cd C:\<Path to Project>\<Project Name>\bin\Debug\net8.0
+	pwsh ./playwright.ps1 codegen <<Website>>
+	# Navigate to the playwright.ps1 location:
+	# 1. cd C:\Users\Coach\GitHub\Playwright-CSharp-NUnit\bin\Debug\net8.0
+	# 2. pwsh ./playwright.ps1 codegen https://nintendo.com
+
+# Specflow - Living Doc
+https://docs.specflow.org/projects/specflow-livingdoc/en/latest/
+
+> Generating with test results CLI command:
+	+ Personal note: I prefer to execute CLI in my IDE. This will put the report within the solution folder!!!
+	# Example: livingdoc test-assembly C:\Work\MyProject.Specs\bin\Debug\net7.0\MyProject.Specs.dll -t C:\Work\MyProject.Specs\bin\debug\net7.0\TestExecution.json
+	-> livingdoc test-assembly 'C:\Users\Coach\GitHub\Playwright-SpecFlowProject\bin\Debug\net7.0\PlaywrightCSharp_SpecFlow.dll' -t 'C:\Users\Coach\GitHub\Playwright-SpecFlowProject\bin\Debug\net7.0\TestExecution.json'
+	livingdoc test-assembly 'C:\Users\Coach\GitHub\Playwright-SpecFlowProject\bin\Debug\net7.0\PlaywrightCSharp_SpecFlow.dll' -t 'C:\Users\Coach\GitHub\Playwright-SpecFlowProject\bin\Debug\net7.0\TestExecution.json'

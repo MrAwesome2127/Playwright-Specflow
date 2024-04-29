@@ -1,0 +1,5 @@
+C:\Users\Coach\GitHub\Playwright-SpecFlowProject\obj\Debug\net6.0\PlaywrightCSharp-SpecFlow.csproj.AssemblyReference.cache
+C:\Users\Coach\GitHub\Playwright-SpecFlowProject\obj\Debug\net6.0\PlaywrightCSharp-SpecFlow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Coach\GitHub\Playwright-SpecFlowProject\obj\Debug\net6.0\PlaywrightCSharp-SpecFlow.AssemblyInfoInputs.cache
+C:\Users\Coach\GitHub\Playwright-SpecFlowProject\obj\Debug\net6.0\PlaywrightCSharp-SpecFlow.AssemblyInfo.cs
+C:\Users\Coach\GitHub\Playwright-SpecFlowProject\obj\Debug\net6.0\PlaywrightCSharp-SpecFlow.csproj.CoreCompileInputs.cache
