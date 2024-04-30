@@ -10,9 +10,18 @@
 
 # Specflow - Living Doc
 https://docs.specflow.org/projects/specflow-livingdoc/en/latest/
+	> Generating with test results CLI command:
+		+ Personal note: I prefer to execute CLI in my IDE. This will put the report within the solution folder!!!
+		# Example: livingdoc test-assembly C:\Work\MyProject.Specs\bin\Debug\net7.0\MyProject.Specs.dll -t C:\Work\MyProject.Specs\bin\debug\net7.0\TestExecution.json
+			# 1. livingdoc test-assembly 'C:\Users\Coach\GitHub\Playwright-SpecFlowProject\bin\Debug\net7.0\PlaywrightCSharp_SpecFlow.dll' -t 'C:\Users\Coach\GitHub\Playwright-SpecFlowProject\bin\Debug\net7.0\TestExecution.json'
 
-> Generating with test results CLI command:
-	+ Personal note: I prefer to execute CLI in my IDE. This will put the report within the solution folder!!!
-	# Example: livingdoc test-assembly C:\Work\MyProject.Specs\bin\Debug\net7.0\MyProject.Specs.dll -t C:\Work\MyProject.Specs\bin\debug\net7.0\TestExecution.json
-	-> livingdoc test-assembly 'C:\Users\Coach\GitHub\Playwright-SpecFlowProject\bin\Debug\net7.0\PlaywrightCSharp_SpecFlow.dll' -t 'C:\Users\Coach\GitHub\Playwright-SpecFlowProject\bin\Debug\net7.0\TestExecution.json'
-	livingdoc test-assembly 'C:\Users\Coach\GitHub\Playwright-SpecFlowProject\bin\Debug\net7.0\PlaywrightCSharp_SpecFlow.dll' -t 'C:\Users\Coach\GitHub\Playwright-SpecFlowProject\bin\Debug\net7.0\TestExecution.json'
+# Running Tests
+	dotnet test 
+
+# DEBUGGING Test
+	Add your BREAKPOINT in the code before you run this!
+	# In Developer Powershell
+		# 1. $env:PWDEBUG=1
+		# 2. dotnet test
+			- OR -
+		# 2. dotnet test --filter Name=<Enter-Test-Name-Here>
