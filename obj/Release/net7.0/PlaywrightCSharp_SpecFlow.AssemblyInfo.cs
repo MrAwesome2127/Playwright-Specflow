@@ -11,9 +11,10 @@
 using System;
 using System.Reflection;
 
+[assembly: Xunit.TestFramework("Xunit.DependencyInjection.DependencyInjectionTestFramework", "Xunit.DependencyInjection")]
 [assembly: Xunit.DependencyInjection.StartupType("PlaywrightCSharp_SpecFlow.Startup")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlaywrightCSharp_SpecFlow")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1a7e5fe53b0be9eeacdd7e75edc4a67877d9f52")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlaywrightCSharp_SpecFlow")]
