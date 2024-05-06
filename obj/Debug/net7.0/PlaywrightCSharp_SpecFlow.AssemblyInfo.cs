@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlaywrightCSharp_SpecFlow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2456c14977225a6b03e13b642c185e4ae2debcd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+825d54efa49561daee3d51e1b95aed0937d45a2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlaywrightCSharp_SpecFlow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlaywrightCSharp_SpecFlow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
